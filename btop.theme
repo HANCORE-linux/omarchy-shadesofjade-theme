@@ -28,19 +28,19 @@ theme[inactive_fg]="#00110b"
 theme[proc_misc]="#ff3370"
 
 # Cpu box outline color
-theme[cpu_box]="#98C48F"
+theme[cpu_box]="#c3fcb8"
 
 # Memory/disks box outline color
-theme[mem_box]="#98C48F"
+theme[mem_box]="#c3fcb8"
 
 # Net up/down box outline color
-theme[net_box]="#98C48F"
+theme[net_box]="#c3fcb8"
 
 # Processes box outline color
-theme[proc_box]="#98C48F"
+theme[proc_box]="#c3fcb8"
 
 # Box divider line and small boxes line color
-theme[div_line]="#98C48F"
+theme[div_line]="#c3fcb8"
 
 # Temperature graph colors
 theme[temp_start]="#cceee1"
