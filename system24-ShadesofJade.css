@@ -134,7 +134,7 @@ body {
     /* other normally white text */
     --text-2: oklch(85% 0 0);
     /* headings and important text */
-    --text-3: #00a86b;
+    --text-3: #98C48F;
     /* normal text */
     --text-4: #80d4b5;
     /* icon buttons and channels */
@@ -160,11 +160,11 @@ body {
     /* messages when hovered */
 
     /* accent colors */
-    --accent-1: #F04923;
+    --accent-1: #ff3370;
     /* links and other accent text */
-    --accent-2: #cceee1;
+    --accent-2: #98C48F;
     /* small accent elements */
-    --accent-3: #cceee1;
+    --accent-3: #98C48F;
     /* accent buttons */
     --accent-4: var(--grey-4);
     /* accent buttons when hovered */
@@ -198,7 +198,7 @@ body {
     /* general light border color */
     --border: var(--active);
     /* general normal border color */
-    --border-hover: #cceee1;
+    --border-hover: #98C48F;
     /* border color of panels when hovered */
     --button-border: hsl(220, 0%, 100%, 0.1);
     /* neutral border color of buttons */
