@@ -3,7 +3,8 @@ A bright Color tint of Jade Shades. Theme is for https://omarchy.org/.
 - VScode Theme https://github.com/Justikun/omarchy-osaka-jade-theme/blob/main/vscode.json <br>
 
 # Screenshots
-<img width="2560" height="1440" alt="previewshadesofjade" src="https://github.com/user-attachments/assets/20b85cf8-21fe-4af3-9877-af5908e47d54" />
+<img width="2560" height="1440" alt="screenshot-2025-10-05_09-00-46" src="https://github.com/user-attachments/assets/ae85874f-58d6-464d-bc7b-20e4d1bdb55b" />
+
 
 
 
