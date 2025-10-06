@@ -13,7 +13,7 @@ A bright Color tint of Jade Shades. Theme is for https://omarchy.org/.
 To install this theme, simply use the omarchy-theme-install command:
 
 ```bash
-  https://github.com/HANCORE-linux/omarchy-shadesofjade-theme.git
+  omarchy-theme-install https://github.com/HANCORE-linux/omarchy-shadesofjade-theme.git
 ```
 ## Vesktop-Theme
 For Vesktop users, you can install this theme by copying the theme file to your Vesktop themes directory:
