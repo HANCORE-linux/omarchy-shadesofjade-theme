@@ -1,5 +1,8 @@
 # Shades of Jade
-A bright Color tint of Jade Shades. Theme is for https://omarchy.org/. 
+Inspired by the quiet strength of jade stone — gentle greens layered over dark foundations bring calm clarity to your workspace.
+The palette reflects renewal and focus, where each shade of green guides the eye yet doesn’t demand attention.
+Designed to embody balance and subtle vitality — the system looks alive with purpose, not noise.
+
 - VScode Theme https://github.com/Justikun/omarchy-osaka-jade-theme/blob/main/vscode.json <br>
 
 # Screenshots
