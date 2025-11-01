@@ -5,13 +5,41 @@
 
 return {
 	{
-		"bjarneo/pixel.nvim",
-		name = "pixel",
+		"bjarneo/aether.nvim",
+		name = "shadesofjade-brighter",
+		priority = 1000,
+		opts = {
+			disable_italics = false,
+			colors = {
+				-- Base shades
+				base00 = "#00110b", -- Background
+				base01 = "#003220", -- Panel / lighter background
+				base02 = "#CCCC99", -- Selection background
+				base03 = "#1e764f", -- Comments / invisibles
+				base04 = "#003220", -- Operators / punctuation / support
+				base05 = "#e6f6f0", -- Foreground / main text
+				base06 = "#80d4b5", -- Bright text / accents
+				base07 = "#e6f6f0", -- Highlight background
+
+				-- Accents
+				base08 = "#ff3370", -- Variables / errors
+				base09 = "#C3FCB8", -- Numbers / constants
+				base0A = "#80d4b5", -- Classes / types / keywords
+				base0B = "#ffde8a", -- Strings / functions (Golden Jade)
+				base0C = "#92d0b8", -- Support / regex
+				base0D = "#80d4b5", -- Functions / keywords
+				base0E = "#CCCC99", -- Highlights / deprecated
+				base0F = "#cceee1", -- Dark green accent / extra highlight
+			},
+		},
+		config = function(_, opts)
+			require("aether").setup(opts)
+			vim.cmd.colorscheme("aether")
+			require("aether.hotreload").setup()
+		end,
 	},
 	{
 		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "pixel",
-		},
+		opts = { colorscheme = "aether" },
 	},
 }
