@@ -6,7 +6,7 @@
 return {
 	{
 		"bjarneo/aether.nvim",
-		name = "shadesofjade-brighter",
+		name = "shadesofjade",
 		priority = 1000,
 		opts = {
 			disable_italics = false,
