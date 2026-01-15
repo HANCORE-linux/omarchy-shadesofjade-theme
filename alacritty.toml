@@ -7,31 +7,31 @@
 [colors.primary]
 background = "#00110b"
 foreground = "#e6f6f0"
-dim_foreground = "#003220"
+dim_foreground = "#87ae83"
 
 [colors.cursor]
 text = "#00110b"
-cursor = "#00a86b"
+cursor = "#E25F4B"
 
 [colors.selection]
 text = "#00110b"
-background = "#CCCC99"
+background = "#E25F4B"
 
 [colors.normal]
 black = "#00110b"
 red = "#ff3370"
 green = "#00a86b"
-yellow = "#cceee1"
+yellow = "#D1FFb0"
 blue = "#006540"
 magenta = "#C3FCB8"
 cyan = "#80d4b5"
 white = "#e6f6f0"
 
 [colors.bright]
-black = "#003220"
+black = "#87ae83"
 red = "#ff3370"
 green = "#00a86b"
-yellow = "#cceee1"
+yellow = "#D1FFb0"
 blue = "#006540"
 magenta = "#C3FCB8"
 cyan = "#80d4b5"
