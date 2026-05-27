@@ -8,7 +8,7 @@ theme[main_fg]="#e6f6f0"
 theme[title]="#e6f6f0"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#87ae83"
+theme[hi_fg]="#E25F4B"
 
 # Background color of selected item
 theme[selected_bg]="#E25F4B"
