@@ -23,7 +23,7 @@ theme[inactive_fg]="#3d584d"
 theme[graph_text]="#cceee1"
 
 # Background color of the percentage meters
-theme[meter_bg]="#00110b"
+theme[meter_bg]="#1f302a"
 
 # Misc colors for processes box
 theme[proc_misc]="#cceee1"
