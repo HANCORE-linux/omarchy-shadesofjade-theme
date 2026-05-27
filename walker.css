@@ -45,7 +45,7 @@ window .box-wrapper {
 }
 
 window .search-container {
-    border: 1.5px solid alpha(@border, 0.3);    /* visible border */
+    border: 1px solid alpha(#E25F4B, 0.5);    /* visible border */
     border-radius: 4px;
     padding: 4px 6px;
     margin: 0;
@@ -54,7 +54,14 @@ window .search-container {
     backdrop-filter: blur(1px);
 }
 
-window .input {
-    background: transparent;
-    color: @text;
+window .input,
+window .search-container text { 
+    color: @selected-text;
+    caret-color: @selected-text;
+}
+
+window .search-container .placeholder,
+window .search-container entry placeholder {
+  color: @selected-text;
+  opacity: 1;
 }
