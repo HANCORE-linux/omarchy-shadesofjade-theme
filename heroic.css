@@ -1,15 +1,15 @@
 body.heroic {
   --background: #00110b;
-  --background-darker: #fffffffffffffffb0c06;
+  --background-darker: #000c06;
   --background-secondary: #051610;
   --background-lighter: #0a1b15;
-  --accent: #D1FFb0;
+  --accent: #006540;
   --text-default: #e6f6f0;
-  --navbar-accent: #D1FFb0;
+  --navbar-accent: #006540;
   --navbar-active-background: #87ae83;
   --success: #00a86b;
   --success-hover: #00a86b;
-  --primary: #D1FFb0;
+  --primary: #006540;
   --primary-hover: #006540;
   --danger: #ff3370;
   --danger-hover: #ff3370;

@@ -1,8 +1,8 @@
 :root {
     /* The main accent color and the matching text value */
-    --adw-accent-bg-rgb: 209, 255, 176 !important;
+    --adw-accent-bg-rgb: 0, 101, 64 !important;
     --adw-accent-fg-rgb: 0, 17, 11 !important;
-    --adw-accent-rgb: 209, 255, 176 !important;
+    --adw-accent-rgb: 0, 101, 64 !important;
 
 	/* destructive-action buttons */
     --adw-destructive-bg-rgb: 255, 51, 112 !important;

@@ -43,9 +43,9 @@
             "terminal.ansi.black": "#00110b",
             "terminal.ansi.red": "#ff3370",
             "terminal.ansi.green": "#00a86b",
-            "terminal.ansi.yellow": "#cceee1",
-            "terminal.ansi.blue": "#D1FFb0",
-            "terminal.ansi.magenta": "#C3FCB8",
+            "terminal.ansi.yellow": "#D1FFb0",
+            "terminal.ansi.blue": "#006540",
+            "terminal.ansi.magenta": "#8fc85c",
             "terminal.ansi.cyan": "#80d4b5",
             "terminal.ansi.white": "#e6f6f0",
             "terminal.ansi.bright_black": "#87ae83",
@@ -53,9 +53,9 @@
             "terminal.ansi.bright_green": "#00a86b",
             "terminal.ansi.bright_yellow": "#D1FFb0",
             "terminal.ansi.bright_blue": "#006540",
-            "terminal.ansi.bright_magenta": "#C3FCB8",
+            "terminal.ansi.bright_magenta": "#8fc85c",
             "terminal.ansi.bright_cyan": "#80d4b5",
-            "terminal.ansi.bright_white": "#e6f6f0",
+            "terminal.ansi.bright_white": "#3d584d",
             "modified": "#ff3370",
             "syntax": {
               "attribute": {
@@ -77,13 +77,13 @@
                 "color": "#80d4b5"
               },
               "keyword": {
-                "color": "#D1FFb0"
+                "color": "#006540"
               },
               "number": {
-                "color": "#C3FCB8"
+                "color": "#8fc85c"
               },
               "operator": {
-                "color": "#D1FFb0"
+                "color": "#006540"
               },
               "string": {
                 "color": "#ff3370"
