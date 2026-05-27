@@ -177,9 +177,9 @@
     --red: var(--base08) !important;
     --red-new-22: var(--base08) !important;
     --redesign-input-control-selected: var(--base0B) !important;
-    --scrollbar-auto-thumb: var(--base00) !important;
+   --scrollbar-auto-thumb: var(--base03) !important;
     --scrollbar-auto-track: transparent;
-    --scrollbar-thin-thumb: var(--base00) !important;
+    --scrollbar-thin-thumb: var(--base03) !important;
     --scrollbar-thin-track: transparent;
     --search-popout-option-fade: none;
     --search-popout-option-non-text-color: var(--base07) !important;
