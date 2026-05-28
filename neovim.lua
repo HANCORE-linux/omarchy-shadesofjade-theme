@@ -1,40 +1,55 @@
 return {
   {
     "bjarneo/aether.nvim",
-    branch = "v2",
+    branch = "v3",
     name = "aether",
     priority = 1000,
     opts = {
       transparent = false,
       colors = {
-        -- Backgrounds & UI
-        bg           = "#00110b",
-        bg_dark      = "#00110b",
-        bg_highlight = "#3d584d", -- Using color15 for subtle highlight contrast
+        bg                   = "#00110b",
+        dark_bg              = "#00110b",
+        darker_bg            = "#000b07",
+        lighter_bg           = "#10261e",
+        bg_highlight         = "#3d584d",
 
-        -- Foregrounds
-        fg           = "#e6f6f0",
-        fg_dark      = "#80d4b5", -- Using color6 for a slightly darker/dimmed foreground
-        comment      = "#87ae83", -- Using color8 for a readable, distinct comment green
+        fg                   = "#e6f6f0",
+        dark_fg              = "#80d4b5",
+        light_fg             = "#e6f6f0",
+        bright_fg            = "#ffffff",
+        muted                = "#87ae83",
 
-        -- Terminal/Syntax Palette
-        red          = "#ff3370", -- color1 / color9
-        orange       = "#E25F4B", -- cursor / selection_background
-        yellow       = "#cceee1", -- color3
-        green        = "#00a86b", -- color2 / color10
-        cyan         = "#80d4b5", -- color6 / color14
-        blue         = "#006540", -- color12
-        purple       = "#D1FFb0", -- accent / color4
-        magenta      = "#C3FCB8", -- color5 / color13
+        red                  = "#ff3370",
+        yellow               = "#cceee1",
+        orange               = "#E25F4B",
+        green                = "#00a86b",
+        cyan                 = "#80d4b5",
+        blue                 = "#006540",
+        purple               = "#D1FFb0",
+        brown                = "#8fc85c",
+
+        bright_red           = "#ff3370",
+        bright_yellow        = "#cceee1",
+        bright_green         = "#00a86b",
+        bright_cyan          = "#80d4b5",
+        bright_blue          = "#006540",
+        bright_purple        = "#D1FFb0",
+
+        accent               = "#00a86b",
+        cursor               = "#e6f6f0",
+        foreground           = "#e6f6f0",
+        background           = "#00110b",
+        selection            = "#3d584d",
+        selection_foreground = "#e6f6f0",
+        selection_background = "#3d584d",
       },
-	  on_highlights = function(hl, c)
-    -- Your existing lines
-    hl.CursorLine = { bg = "#0c1d17" } 
-    hl.CursorLineNr = { fg = c.orange, bold = true }
-    hl["@markup.raw.markdown_inline"] = { bg = "NONE" }
-    hl["@markup.raw.block.markdown"] = { bg = "NONE" }
-	hl["@markup.quote"] = { bg = "NONE" }
-   end,
+      on_highlights = function(hl, c)
+        hl.CursorLine = { bg = "#0c1d17" } 
+        hl.CursorLineNr = { fg = c.orange, bold = true }
+        hl["@markup.raw.markdown_inline"] = { bg = "NONE" }
+        hl["@markup.raw.block.markdown"] = { bg = "NONE" }
+        hl["@markup.quote"] = { bg = "NONE" }
+      end,
     },
     config = function(_, opts)
       require("aether").setup(opts)
