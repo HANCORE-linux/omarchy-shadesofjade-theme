@@ -2,22 +2,22 @@
 theme[main_bg]="#00110b"
 
 # Main text color
-theme[main_fg]="#e6f6f0"
+theme[main_fg]="#FFF7F2"
 
 # Title color for boxes
-theme[title]="#e6f6f0"
+theme[title]="#FFF7F2"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#E25F4B"
+theme[hi_fg]="#FF6600"
 
 # Background color of selected item
-theme[selected_bg]="#E25F4B"
+theme[selected_bg]="#FF6600"
 
 # Foreground color of selected item
 theme[selected_fg]="#00110b"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#3d584d"
+theme[inactive_fg]="#3E6650"
 
 # Color of text appearing on top of graphs
 theme[graph_text]="#cceee1"
@@ -29,18 +29,18 @@ theme[meter_bg]="#1f302a"
 theme[proc_misc]="#cceee1"
 
 # CPU, Memory, Network, Proc box outline colors
-theme[cpu_box]="#87ae83"
-theme[mem_box]="#3d584d"
-theme[net_box]="#E25F4B"
-theme[proc_box]="#87ae83"
+theme[cpu_box]="#3E6650"
+theme[mem_box]="#3E6650"
+theme[net_box]="#FF6600"
+theme[proc_box]="#3E6650"
 
 # Box divider line und small boxes line color
-theme[div_line]="#006540"
+theme[div_line]="#3E6650"
 
 # Temperature graph color (Green -> Yellow -> Red)
 theme[temp_start]="#00a86b"
 theme[temp_mid]="#80d4b5"
-theme[temp_end]="#E25F4B"
+theme[temp_end]="#FF6600"
 
 # CPU graph colors
 theme[cpu_start]="#00a86b"
@@ -58,23 +58,23 @@ theme[cached_mid]="#D1FFb0"
 theme[cached_end]="#C3FCB8"
 
 # Mem/Disk available meter
-theme[available_start]="#3d584d"
-theme[available_mid]="#E25F4B"
-theme[available_end]="#E25F4B"
+theme[available_start]="#3E6650"
+theme[available_mid]="#FF6600"
+theme[available_end]="#FF6600"
 
 # Mem/Disk used meter
 theme[used_start]="#00a86b"
-theme[used_mid]="#006540"
+theme[used_mid]="#FF6600"
 theme[used_end]="#80d4b5"
 
 # Download graph colors
 theme[download_start]="#80d4b5"
-theme[download_mid]="#E25F4B"
-theme[download_end]="#E25F4B"
+theme[download_mid]="#FF6600"
+theme[download_end]="#FF6600"
 
 # Upload graph colors
 theme[upload_start]="#00a86b"
-theme[upload_mid]="#006540"
+theme[upload_mid]="#FF6600"
 theme[upload_end]="#80d4b5"
 
 # Process box color gradient
@@ -84,10 +84,10 @@ theme[process_end]="#C3FCB8"
 
 # Graph gradient colors
 theme[gradient_color_0]="#00110b"
-theme[gradient_color_1]="#006540"
+theme[gradient_color_1]="#FF6600"
 theme[gradient_color_2]="#80d4b5"
-theme[gradient_color_3]="#3d584d"
-theme[gradient_color_4]="#87ae83"
+theme[gradient_color_3]="#3E6650"
+theme[gradient_color_4]="#3E6650"
 theme[gradient_color_5]="#cceee1"
 theme[gradient_color_6]="#D1FFb0"
 theme[gradient_color_7]="#e6f6f0"

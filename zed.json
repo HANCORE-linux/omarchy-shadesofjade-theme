@@ -16,12 +16,12 @@
             "text.placeholder": "#e6f6f050",
             "ignored": "#e6f6f030",
             "element.hover": "#e6f6f030",
-            "ghost_element.hover": "#87ae8330",
-            "ghost_element.selected": "#87ae8330",
-            "ghost_element.active": "#87ae8360",
+            "ghost_element.hover": "#3E665030",
+            "ghost_element.selected": "#3E665030",
+            "ghost_element.active": "#3E665060",
             "border": "#00110b",
-            "editor.highlighted_line.background": "#87ae8310",
-            "editor.active_line.background": "#87ae8310",
+            "editor.highlighted_line.background": "#3E665010",
+            "editor.active_line.background": "#3E665010",
             "panel.background": "#00110b90",
             "title_bar.background": "#00110b90",
             "title_bar.inactive_background": "#00110b90",
@@ -31,7 +31,7 @@
             "toolbar.background": "#00110b90",
             "tab_bar.background": "#00110b90",
             "tab.inactive_background": "#00110b90",
-            "tab.active_background": "#87ae8330",
+            "tab.active_background": "#3E665030",
             "scrollbar.track.background": "transparent",
             "scrollbar.track.border": "#00110b",
             "scrollbar.thumb.background": "#e6f6f0",
@@ -44,18 +44,18 @@
             "terminal.ansi.red": "#ff3370",
             "terminal.ansi.green": "#00a86b",
             "terminal.ansi.yellow": "#D1FFb0",
-            "terminal.ansi.blue": "#006540",
+            "terminal.ansi.blue": "#FF6600",
             "terminal.ansi.magenta": "#8fc85c",
             "terminal.ansi.cyan": "#80d4b5",
-            "terminal.ansi.white": "#e6f6f0",
-            "terminal.ansi.bright_black": "#87ae83",
+            "terminal.ansi.white": "#FFF7F2",
+            "terminal.ansi.bright_black": "#3E6650",
             "terminal.ansi.bright_red": "#ff3370",
             "terminal.ansi.bright_green": "#00a86b",
             "terminal.ansi.bright_yellow": "#D1FFb0",
-            "terminal.ansi.bright_blue": "#006540",
+            "terminal.ansi.bright_blue": "#FF6600",
             "terminal.ansi.bright_magenta": "#8fc85c",
             "terminal.ansi.bright_cyan": "#80d4b5",
-            "terminal.ansi.bright_white": "#3d584d",
+            "terminal.ansi.bright_white": "#e6f6f0",
             "modified": "#ff3370",
             "syntax": {
               "attribute": {
@@ -65,10 +65,10 @@
                 "color": "#00a86b"
               },
               "comment": {
-                "color": "#87ae83"
+                "color": "#3E6650"
               },
               "comment.doc": {
-                "color": "#87ae83"
+                "color": "#3E6650"
               },
               "constant": {
                 "color": "#00a86b"
@@ -77,13 +77,13 @@
                 "color": "#80d4b5"
               },
               "keyword": {
-                "color": "#006540"
+                "color": "#FF6600"
               },
               "number": {
                 "color": "#8fc85c"
               },
               "operator": {
-                "color": "#006540"
+                "color": "#FF6600"
               },
               "string": {
                 "color": "#ff3370"

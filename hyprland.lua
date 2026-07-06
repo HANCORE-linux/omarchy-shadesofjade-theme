@@ -22,7 +22,7 @@ hl.config({
     groupbar = {
       col = {
         active = "rgba(00a86b99)",
-        inactive = "rgba(3d584d88)",
+        inactive = "rgba(3E665088)",
       },
       text_color = "rgb(D1FFb0)",
       text_color_inactive = "rgba(e6f6f0ff)",

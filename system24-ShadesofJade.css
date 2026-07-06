@@ -134,7 +134,7 @@ body {
     /* other normally white text */
     --text-2: oklch(85% 0 0);
     /* headings and important text */
-    --text-3: #98C48F;
+    --text-3: #00a86b;
     /* normal text */
     --text-4: #80d4b5;
     /* icon buttons and channels */
@@ -150,7 +150,7 @@ body {
     /* spacing, secondary elements */
     --bg-4: #00110b;
     /* main background color */
-    --hover: #002215;
+    --hover: #3E6650;
     /* channels and buttons when hovered */
     --active: oklch(54% 0 0 / 0.2);
     /* channels and buttons when clicked or selected */
@@ -162,15 +162,15 @@ body {
     /* accent colors */
     --accent-1: #ff3370;
     /* links and other accent text */
-    --accent-2: #98C48F;
+    --accent-2: #00a86b;
     /* small accent elements */
-    --accent-3: #98C48F;
+    --accent-3: #00a86b;
     /* accent buttons */
     --accent-4: var(--grey-4);
     /* accent buttons when hovered */
     --accent-5: var(--grey-5);
     /* accent buttons when clicked */
-    --accent-new: #CCCC99;
+    --accent-new: #D1FFb0;
     /* stuff that's normally red like mute/deafen buttons */
     --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 90%) 40%, transparent);
     /* background of messages that mention you */
@@ -198,7 +198,7 @@ body {
     /* general light border color */
     --border: var(--active);
     /* general normal border color */
-    --border-hover: #98C48F;
+    --border-hover: #00a86b;
     /* border color of panels when hovered */
     --button-border: hsl(220, 0%, 100%, 0.1);
     /* neutral border color of buttons */

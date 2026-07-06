@@ -33,3 +33,13 @@ window:backdrop #container {
     background-clip: padding-box;
     box-shadow: 2px 2px 9px 0px rgba(6,11,22, 0.8);
 }
+
+progressbar trough {
+    background-color: alpha(@border-color, 0.35);
+    border: 1px solid alpha(@progress, 0.25);
+    border-radius: 6px;
+}
+
+progress {
+    border-radius: 6px;
+}
